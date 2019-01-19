@@ -1,0 +1,41 @@
+.about-container {
+  padding: 0 100px;
+  @media screen and (max-width: 768px){
+    padding: 0 50px;
+  }
+}
+
+.about-text {
+  padding: 50px 0 100px;
+  @media screen and (max-width: 768px){
+    padding: 50px 0;
+  }
+}
+
+.about-title {
+  color: $maroon;
+  padding: 75px 0;
+  @media screen and (max-width: 768px){
+    font-size: 48px;
+    padding: 50px 0 0;
+  }
+}
+
+.about-subtitle {
+  padding: 0 0 20px 0;
+  @media screen and (max-width: 768px){
+    padding: 30px 0 20px 0;
+  }
+}
+
+.about-testimonial {
+  padding: 90px 100px 90px 0;
+  @media screen and (max-width: 1000px){
+    padding: 0;
+  }
+  @media screen and (max-width: 768px){
+    border-top: 1px solid $dust;
+    padding: 50px 0;
+    text-align: center;
+  }
+}

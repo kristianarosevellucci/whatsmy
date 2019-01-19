@@ -1,0 +1,44 @@
+.tool-benefits {
+  padding: 200px 0;
+  @media screen and (max-width: 768px){
+    padding: 100px 50px;
+  }
+}
+
+.tool-benefits__title {
+  padding: 0 0 70px 0;
+  @media screen and (max-width: 768px){
+    padding: 50px 0 0;
+  }
+}
+
+.tool-benefits__subtitle {
+  color: $maroon;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px){
+    padding-top: 50px;
+  }
+}
+
+.tool-benefits__number {
+  color: $yellow;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin: -10px 15px 0 0;
+}
+
+.tool-benefits__text {
+  border-left: 6px solid $dust;
+  padding: 0 0 0 30px;
+  margin: 20px 0 0 0;
+}
+
+.tool-benefits__content {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+  @media screen and (max-width: 768px){
+    padding: 0;
+  }
+}

@@ -1,0 +1,55 @@
+.cta-banner {
+  padding: 150px;
+  @media screen and (max-width: 768px){
+    padding: 100px 50px;
+  }
+}
+
+.cta-banner__maroon {
+  background: $maroon;
+  background: linear-gradient(lighten($maroon, 7%), $maroon);
+  h2 {
+    color: $white;
+  }
+  .btn-primary {
+    color: $charcoal;
+    background: $dust;
+    /* Old browsers */
+    background: linear-gradient(to left, $dust 50%, $pink 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    &:hover {
+      text-decoration: none;
+      background-position: left bottom;
+    }
+  }
+}
+
+.cta-banner__pink {
+  background: $pink;
+  background: linear-gradient(lighten($pink, 5%), $pink);
+}
+
+.cta-banner__yellow {
+  background: $yellow;
+  background: linear-gradient($yellow, $orange);
+}
+
+.cta-banner__blue {
+  background: linear-gradient($blue, darken($blue, 7%));
+  h2 {
+    color: $white;
+  }
+  .btn-primary {
+    color: $charcoal;
+    background: $dust;
+    /* Old browsers */
+    background: linear-gradient(to left, $dust 50%, $pink 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    &:hover {
+      text-decoration: none;
+      background-position: left bottom;
+    }
+  }
+}

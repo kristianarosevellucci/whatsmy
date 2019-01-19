@@ -1,0 +1,9 @@
+.intro-text {
+  border-bottom: 1px solid $grey;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 400;
+  padding: 150px;
+  @media screen and (max-width: 768px){
+    padding: 100px 50px;
+  }
+}

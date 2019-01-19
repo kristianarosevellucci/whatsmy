@@ -1,0 +1,31 @@
+.top-block {
+  padding: 200px 0 0;
+}
+
+.middle-block {
+  padding: 150px 0;
+}
+
+.bottom-block {
+  padding: 150px 0 0;
+  @media screen and (max-width: 768px){
+    padding: 0;
+  }
+}
+
+.text-block-img {
+  box-shadow: $grey 0 2px 30px -5px;
+}
+
+.lr-block-desktop {
+  @media screen and (max-width: 768px){
+    display: none;
+  }
+}
+
+.lr-block-mobile {
+  display: none;
+  @media screen and (max-width: 768px){
+    display: block;
+  }
+}

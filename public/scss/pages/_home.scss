@@ -1,0 +1,125 @@
+.home-hero {
+  background: $dust;
+  padding: 0 100px;
+  margin-top: 42px;
+  @media screen and (max-width: 768px){
+    padding: 0;
+  }
+}
+
+.home-hero__img {
+  margin: 0 0 -84px 0;
+  @media screen and (max-width: 1150px){
+    padding: 100px 0 0;
+  }
+  @media screen and (max-width: 880px){
+    padding: 125px 0 0;
+  }
+  @media screen and (max-width: 575px){
+    display: none;
+  }
+}
+
+.home-hero__lead {
+  max-width: 75%;
+  padding: 30px 0;
+  @media screen and (max-width: 1150px){
+    font-size: 16px;
+  }
+  @media screen and (max-width: 768px){
+    max-width: 100%;
+  }
+}
+
+.home-hero__text-container {
+  padding: 150px 25px;
+  @media screen and (max-width: 830px){
+    padding: 150px 0;
+  }
+  @media screen and (max-width: 768px){
+    padding: 150px 25px;
+  }
+}
+
+.product-wheel {
+  background: $dust;
+  padding: 200px 0;
+}
+
+.product-wheel__text {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px){
+    padding: 25px 25px 50px;
+  }
+}
+
+.product-wheel__text--white-block {
+  background: $white;
+  padding: 25px;
+}
+
+.why-autoverify__title {
+  @media screen and (max-width: 768px){
+    padding: 0 0 50px 0;
+  }
+}
+
+.why-autoverify {
+  padding: 150px 0;
+}
+
+.yellow-block {
+  background: linear-gradient($yellow, $orange);
+  height: 75%;
+  width: 25%;
+  position: absolute;
+  top: 85px;
+  left: 11.25%;
+  @media screen and (max-width: 768px){
+    display: none;
+  }
+}
+
+.support-testimonial {
+  padding: 125px 0 0;
+  @media screen and (max-width: 768px){
+    padding: 50px 0 0;
+  }
+}
+
+.support-testimonial-container {
+  background: white;
+  box-shadow: 0 2px 40px $dust;
+  height: 275px;
+  padding: 25px;
+  @media screen and (max-width: 768px){
+    height: 215px;
+  }
+}
+
+.support-testimonial__author {
+  position: absolute;
+  bottom: 25px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 700;
+}
+
+.support-testimonial__position {
+  position: absolute;
+  bottom: 0;
+}
+
+.logo-carousel {
+  padding-top: 200px;
+}
+
+.logo-carousel__title {
+  padding-bottom: 100px;
+}
+
+.logo-carousel__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 125px;
+}

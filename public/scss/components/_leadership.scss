@@ -1,0 +1,47 @@
+.leadership-container {
+  margin: 0 0 125px 0;
+  @media screen and (max-width: 768px){
+    margin: 0 0 50px 0;
+    max-width: 500px;
+  }
+}
+
+.leadership__description {
+  text-align: right;
+  position: absolute;
+  z-index: 100;
+  bottom: 130px;
+  right: 40px;
+  @media screen and (max-width: 768px){
+    position: relative;
+    bottom: auto;
+    right: auto;
+  }
+}
+
+.leadership__name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin: 0;
+  @media screen and (max-width: 1000px){
+    font-size: 24px;
+  }
+  @media screen and (max-width: 768px){
+    font-size: 26px;
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+
+.leadership__position {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  @media screen and (max-width: 1000px){
+    font-size: 12px;
+  }
+  @media screen and (max-width: 768px){
+    font-size: 14px;
+    text-align: center;
+  }
+}

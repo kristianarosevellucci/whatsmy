@@ -1,0 +1,68 @@
+/*Colours*/
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700 !important;
+}
+
+h1 {
+  font-size: 58px;
+  line-height: 1;
+  @media screen and (max-width: 1150px){
+    font-size: 36px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Cairo', sans-serif;
+  font-size: 16px;
+}
+
+.cta-title {
+  font-size: 36px;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700 !important;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.testimonial {
+  color: $charcoal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  @media screen and (max-width: 768px){
+    font-size: 24px;
+  }
+}
+
+.testimonial-author {
+  color: $charcoal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.testimonial-position {
+  color: $charcoal;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+}
+
+.tools-hero__lead {
+  padding: 20px 0;
+}

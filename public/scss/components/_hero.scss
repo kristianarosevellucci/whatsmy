@@ -1,0 +1,102 @@
+.tools-hero__img-container {
+  padding: 50px 100px 0 50px;
+  @media screen and (max-width: 768px){
+      padding: 0;
+  }
+}
+
+.customers-hero__img-container {
+  background: $pink;
+  padding: 50px 100px 150px 50px;
+  @media screen and (max-width: 768px){
+      padding: 0;
+  }
+}
+
+.tools-hero--maroon {
+  border-left: 15px solid $maroon;
+  .tools-hero__img-container {
+    background: linear-gradient(lighten($maroon, 7%), $maroon);
+  }
+}
+
+.tools-hero--pink {
+  border-left: 15px solid $pink;
+  .tools-hero__img-container {
+    background: linear-gradient(lighten($pink, 5%), $pink);
+  }
+}
+
+.tools-hero--yellow {
+  border-left: 15px solid $yellow;
+  .tools-hero__img-container {
+    background: linear-gradient($yellow, $orange);
+  }
+}
+
+.tools-hero--blue {
+  border-left: 15px solid $blue;
+  .tools-hero__img-container {
+    background: linear-gradient($blue, darken($blue, 7%));
+  }
+}
+
+.customers-hero--maroon {
+  .customers-hero__img-container {
+    background: linear-gradient(lighten($maroon, 7%), $maroon);
+  }
+}
+
+.customers-hero--pink {
+  .customers-hero__img-container {
+    background: linear-gradient(lighten($pink, 5%), $pink);
+  }
+}
+
+.customers-hero--yellow {
+  .customers-hero__img-container {
+    background: linear-gradient($yellow, $orange);
+  }
+}
+
+.customers-hero--blue {
+  .customers-hero__img-container {
+    background: linear-gradient($blue, darken($blue, 7%));
+  }
+}
+
+.tools-hero__img,
+.customers-hero__img {
+  margin-bottom: -40px;
+  @media screen and (max-width: 768px){
+    padding: 50px 25px 0;
+    margin-bottom: -40px;
+  }
+}
+
+.tools-hero {
+  @media screen and (max-width: 768px){
+    border-left: none;
+  }
+}
+
+.tools-hero__text,
+.customers-hero__text {
+  padding: 25% 50px 0 100px;
+  @media screen and (max-width: 1000px){
+    h1 {
+      font-size: 42px;
+    }
+  }
+  @media screen and (max-width: 850px){
+    padding: 50px;
+  }
+}
+
+.tools-hero__screen,
+.customers-hero__screen {
+  margin-bottom: -50px;
+  @media screen and (max-width: 768px){
+    margin: -50px 0 0 0;
+  }
+}
