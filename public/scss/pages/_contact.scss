@@ -1,50 +1,35 @@
-.form-field {
-  border: 1px solid $grey;
-  height: 70px;
-  width: 100%;
-  padding: 25px 10px 10px;
-  font-family: 'Cairo', sans-serif;
-  transition: .15s ease;
-  &:focus {
-    border-left: 5px solid $yellow;
-    outline: none;
-  }
-}
-
-.form-field--message {
-  height: 150px;
-  resize: none;
-  margin-bottom: -10px;
-}
-
-.form-label {
-  color: $grey;
-  position: absolute;
-  font-size: 12px;
-  font-family: 'Cairo', sans-serif;
-  padding: 10px;
-}
-
-.form-item {
-  width: 100%;
-}
-
-.form-container {
-  box-shadow: $dust 5px 5px 30px;
-}
-
-.contact-lead {
-  padding: 20px 0;
-}
-
-.contact-form {
-  padding: 100px 0 100px 100px;
-  @media screen and (max-width: 768px){
-    padding: 50px;
-  }
-}
-
 .contact-btn {
   float: right;
   margin: 13px 0;
+}
+
+.contact-form {
+  padding: 140px 100px 150px 0;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 50px;
+  }
+}
+
+.form-label {
+  font-family: 'Lora', serif;
+  padding: 15px 0 0;
+}
+
+.form-input, .form-message {
+  background: $light-grey;
+  border: 0;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+
+.form-message-group,
+.form-info-group {
+  padding: 60px 0 0;
+}
+
+.form-message {
+  height: 200px;
+  resize: none;
 }

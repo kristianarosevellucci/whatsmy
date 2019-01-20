@@ -3,31 +3,51 @@
     <div class="container">
       <div class="row lr-block-desktop">
         <div class="col-md-6">
-          <div class="image-container">
+          <div class="img-container">
             <img
-              :src="require(`@/../public/img/${imageSrc}`)"
-              :alt="imageAlt"
-              class="img-responsive image-container__item"
+              :src="require(`@/../public/img/${imageSrc1}`)"
+              :alt="imageAlt1"
+              class="text-block__add-img left"
+            />
+
+            <img
+              :src="require(`@/../public/img/${imageSrc2}`)"
+              :alt="imageAlt2"
+              class="text-block__graph-img left"
             />
           </div>
+          <div class="color-bands">
+            <div class="left-bar yellow-bar"></div>
+            <div class="left-bar pink-bar"></div>
+            <div class="left-bar blue-bar"></div>
+          </div>
         </div>
-        <div class="offset-md-1 col-md-4 product-wheel__text">
-          <p><span class="full-width block-title pb-20">{{title}}</span>
-          <span class="full-width pb-20">{{textBlock}}</span></p>
+        <div class="offset-md-1 col-md-4">
+          <p>
+          <span class="text-block__number">{{number}}</span><br>
+          <span class="text-block__title h3">{{title}}</span>
+          <span>{{textBlock}}</span>
+        </p>
         </div>
       </div>
       <div class="row lr-block-mobile">
         <div class="offset-md-1 col-md-6">
-          <div class="image-container">
+          <div class="img-container">
             <img
-              :src="require(`@/../public/img/${imageSrc}`)"
-              :alt="imageAlt"
-              class="img-responsive"
+              :src="require(`@/../public/img/${imageSrc1}`)"
+              :alt="imageAlt1"
+              class="text-block__add-img"
+            />
+
+            <img
+              :src="require(`@/../public/img/${imageSrc2}`)"
+              :alt="imageAlt2"
+              class="text-block__graph-img"
             />
           </div>
         </div>
-        <div class="offset-md-1 col-md-5 product-wheel__text">
-          <p><span class="full-width block-title pb-20">{{title}}</span>
+        <div class="offset-md-1 col-md-5 centered-text">
+          <p><br><span class="full-width h3 pb-20">{{title}}</span><br>
           <span class="full-width pb-20">{{textBlock}}</span></p>
         </div>
       </div>
@@ -43,6 +63,10 @@
         type: String,
         required: true
       },
+      number: {
+        type: String,
+        required: true
+      },
       textBlock: {
         type: String,
         required: true
@@ -51,11 +75,19 @@
         type: String,
         required: true
       },
-      imageSrc: {
+      imageSrc1: {
         type: String,
         required: true
       },
-      imageAlt: {
+      imageAlt1: {
+        type: String,
+        required: true
+      },
+      imageSrc2: {
+        type: String,
+        required: true
+      },
+      imageAlt2: {
         type: String,
         required: true
       }

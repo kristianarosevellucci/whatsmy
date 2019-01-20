@@ -1,68 +1,50 @@
 /*Colours*/
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700 !important;
-}
-
 h1 {
-  font-size: 58px;
-  line-height: 1;
-  @media screen and (max-width: 1150px){
-    font-size: 36px;
-  }
+  color: $red;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 1.25;
+  color: $red;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 700;
 }
 
-h3 {
-  font-size: 18px;
-  line-height: 1.5;
+h3, .h3 {
+  color: $throwback-blue;
+  font-family: 'Lora', serif;
+  font-weight: 700;
 }
 
 p {
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .cta-title {
   font-size: 36px;
 }
 
-.subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700 !important;
-  letter-spacing: 2px;
-  font-size: 14px;
-}
-
-.testimonial {
-  color: $charcoal;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
+.hero-lead {
+  font-family: 'Lora', serif;
   font-weight: 700;
-  line-height: 1.2;
-  @media screen and (max-width: 768px){
-    font-size: 24px;
-  }
+  font-size: 20px;
 }
 
-.testimonial-author {
-  color: $charcoal;
-  font-family: 'Montserrat', sans-serif;
+.lead {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.subtitle {
+  font-family: 'Archivo', sans-serif;
   font-size: 14px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.testimonial-position {
-  color: $charcoal;
-  font-family: 'Cairo', sans-serif;
-  font-size: 14px;
-}
-
-.tools-hero__lead {
-  padding: 20px 0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }

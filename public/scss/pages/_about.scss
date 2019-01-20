@@ -1,41 +1,150 @@
+.blue-banner {
+  max-height: 350px;
+  margin-top: 300px;
+  padding: 0 0 0 50px;
+  @media screen and (max-width: $screen-sm){
+   margin-top: 150px;
+   max-height: 200px;
+  }
+}
+
+.about-story {
+  padding: 150px 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px 50px 100px;
+  }
+}
+
 .about-container {
-  padding: 0 100px;
-  @media screen and (max-width: 768px){
+  background: $dust;
+  padding: 100px 100px 25px;
+  @media screen and (max-width: $screen-sm){
     padding: 0 50px;
   }
 }
 
-.about-text {
-  padding: 50px 0 100px;
-  @media screen and (max-width: 768px){
+.value-title {
+  padding: 25px 0;
+}
+
+.about-text h2 {
+  font-family: 'Archivo Black', sans-serif;
+  max-width: 400px;
+  line-height: 1.25;
+  padding: 0 0 150px 0;
+  @media screen and (max-width: $screen-sm){
     padding: 50px 0;
   }
 }
 
-.about-title {
-  color: $maroon;
-  padding: 75px 0;
-  @media screen and (max-width: 768px){
-    font-size: 48px;
-    padding: 50px 0 0;
+.about-summary {
+  padding: 150px 0 170px;
+}
+
+.about-summary__text {
+  padding: 150px 100px;
+  column-count: 2;
+  h2 {
+    font-family: 'Archivo Black', sans-serif;
   }
 }
 
-.about-subtitle {
-  padding: 0 0 20px 0;
-  @media screen and (max-width: 768px){
-    padding: 30px 0 20px 0;
+.about-summary__text {
+  padding: 40px 0 60px;
+}
+
+.about-story__icon {
+  max-width: 75px;
+  @media screen and (max-width: $screen-sm){
+    margin-top: 50px;
   }
 }
 
-.about-testimonial {
-  padding: 90px 100px 90px 0;
-  @media screen and (max-width: 1000px){
-    padding: 0;
+
+
+.hiw-steps-container {
+  background: $light-grey;
+  padding: 150px 0;
+  @media screen and (max-width: $screen-sm){
+    padding: 150px 50px;
   }
-  @media screen and (max-width: 768px){
-    border-top: 1px solid $dust;
-    padding: 50px 0;
-    text-align: center;
+  h2 {
+    padding: 45px 0 20px;
   }
+}
+
+.hiw-blue-pattern {
+  right: -100px;
+}
+
+.hiw-partners {
+  padding: 200px 0 150px;
+  @media screen and (max-width: $screen-sm){
+    padding: 150px 50px;
+  }
+  .lead {
+    padding: 40px 0 100px;
+  }
+}
+
+.hiw-steps__number {
+  color: $red;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 72px;
+  position: relative;
+  z-index: 1;
+  padding-top: 15px;
+}
+
+.hiw-steps__title {
+  padding: 15px 0 25px;
+}
+
+.hiw-steps__lead {
+  max-width: 600px;
+  padding: 25px 0 60px;
+}
+
+.dot-pattern {
+  position: absolute;
+  max-height: 125px;
+  top: 0;
+  left: 60px;
+  z-index: 2;
+}
+
+.hiw-blurb {
+  padding: 150px 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 150px 50px;
+  }
+}
+
+.hiw-blurb__main-img {
+  position: absolute;
+  width: 70%;
+  right: 0;
+  z-index: 3;
+  top: 55px;
+}
+
+.hiw-blurb__main-blur {
+  position: relative;
+  width: 50%;
+  left: 0;
+}
+
+.hiw-blurb__line-accent {
+  position: absolute;
+  width: 60px;
+  right: 46%;
+  z-index: 4;
+  top: -50px;
+}
+
+.hiw-blurb__large-dots {
+  position: absolute;
+  left: -75px;
+  width: 300px;
+  bottom: -100px;
 }

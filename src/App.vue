@@ -31,5 +31,5 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
 @import "../public/scss/application.scss";
-@import url('https://fonts.googleapis.com/css?family=Cairo:400,600,700|Montserrat:400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Archivo:400,700|Lora:400,700');
 </style>

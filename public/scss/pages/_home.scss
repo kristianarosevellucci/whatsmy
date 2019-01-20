@@ -1,10 +1,79 @@
 .home-hero {
-  background: $dust;
-  padding: 0 100px;
+  padding: 150px 100px;
   margin-top: 42px;
-  @media screen and (max-width: 768px){
-    padding: 0;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px 0;
   }
+  h1 {
+    margin: 40px 0;
+    @media screen and (max-width: $screen-sm){
+      margin: 15px 0;
+    }
+  }
+}
+
+.home-lead {
+  h2 {
+    margin-bottom: 40px;
+  }
+  margin: 0 0 150px 0;
+}
+
+.use-cases {
+  background: $light-grey;
+  padding: 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 25px 0;
+  }
+}
+
+.centered-text {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px){
+    padding: 25px 25px 50px;
+  }
+}
+
+.text-block__number {
+  color: $red;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 56px;
+  padding: 0 0 20px 0;
+}
+
+.text-block__title {
+  display: block;
+  padding: 0 0 20px 0;
+}
+
+.features {
+  padding: 150px 100px 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 25px 0;
+  }
+  h2 {
+    margin: 0 0 60px 0;
+    max-width: 500px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+
+.features__item {
+  border: 1px solid $light-grey;
+  min-height: 200px;
+  padding: 50px 25px;
+}
+
+.features__item-container {
+  padding: 20px;
+}
+
+.features__icon {
+  margin-right: 15px;
+  max-height: 25px;
 }
 
 .home-hero__img {
@@ -20,106 +89,72 @@
   }
 }
 
-.home-hero__lead {
-  max-width: 75%;
-  padding: 30px 0;
-  @media screen and (max-width: 1150px){
-    font-size: 16px;
-  }
-  @media screen and (max-width: 768px){
-    max-width: 100%;
-  }
+.img-container {
+  position: inherit;
+  z-index: 2;
 }
 
-.home-hero__text-container {
-  padding: 150px 25px;
-  @media screen and (max-width: 830px){
-    padding: 150px 0;
-  }
-  @media screen and (max-width: 768px){
-    padding: 150px 25px;
-  }
-}
-
-.product-wheel {
-  background: $dust;
-  padding: 200px 0;
-}
-
-.product-wheel__text {
-  display: flex;
-  align-items: center;
-  @media screen and (max-width: 768px){
-    padding: 25px 25px 50px;
-  }
-}
-
-.product-wheel__text--white-block {
-  background: $white;
-  padding: 25px;
-}
-
-.why-autoverify__title {
-  @media screen and (max-width: 768px){
-    padding: 0 0 50px 0;
-  }
-}
-
-.why-autoverify {
-  padding: 150px 0;
-}
-
-.yellow-block {
-  background: linear-gradient($yellow, $orange);
-  height: 75%;
-  width: 25%;
+.right-bar {
+  background: red;
+  height: 75px;
+  width: 100%;
+  margin: 5px 0;
   position: absolute;
-  top: 85px;
-  left: 11.25%;
-  @media screen and (max-width: 768px){
+  z-index: 1;
+  right: -150px;
+}
+
+.left-bar {
+  background: red;
+  height: 75px;
+  width: 100%;
+  margin: 5px 0;
+  position: absolute;
+  z-index: 1;
+  left: -150px;
+}
+
+.yellow-bar, .pink-bar, .blue-bar {
+  @media screen and (max-width: $screen-sm){
     display: none;
   }
 }
 
-.support-testimonial {
-  padding: 125px 0 0;
-  @media screen and (max-width: 768px){
-    padding: 50px 0 0;
+.yellow-bar {
+  background: $yellow;
+  top: 50px;
+}
+
+.pink-bar {
+  background: $pink;
+  top: 130px;
+}
+
+.blue-bar {
+  background: $throwback-blue;
+  top: 210px;
+}
+
+
+.text-block__add-img {
+  position: absolute;
+  width: 50%;
+  box-shadow: 5px 10px 10px rgba(0,0,0, .1);
+  right: 0;
+  top: -25px;
+  &.left {
+    right: auto;
+    left: 0;
   }
 }
 
-.support-testimonial-container {
-  background: white;
-  box-shadow: 0 2px 40px $dust;
-  height: 275px;
-  padding: 25px;
-  @media screen and (max-width: 768px){
-    height: 215px;
+.text-block__graph-img {
+  box-shadow: 5px 10px 10px rgba(0,0,0, .1);
+  width: 60%;
+  float: left;
+  z-index: 1;
+  margin-top: 55px;
+  &.left {
+    float: right;
   }
-}
-
-.support-testimonial__author {
-  position: absolute;
-  bottom: 25px;
-  font-family: 'Montserrat',sans-serif;
-  font-weight: 700;
-}
-
-.support-testimonial__position {
-  position: absolute;
-  bottom: 0;
-}
-
-.logo-carousel {
-  padding-top: 200px;
-}
-
-.logo-carousel__title {
-  padding-bottom: 100px;
-}
-
-.logo-carousel__img {
-  display: block;
-  margin: 0 auto;
-  max-width: 125px;
 }

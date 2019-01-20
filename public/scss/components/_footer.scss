@@ -1,39 +1,81 @@
-footer {
-  background: $charcoal;
-  padding: 0 125px;
-  @media screen and (max-width: 768px){
-    padding: 25px 50px;
-  }
-  p {
-    color: $white;
-    font-family: 'Cairo', sans-serif;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-    @media screen and (max-width: 768px){
-      text-align: center;
-    }
-  }
 
-  a {
-    color: $yellow;
-    font-weight: 600;
-    &:hover {
-      color: darken($yellow, 20%);
-      text-decoration: none;
-    }
+.footer-subscribe {
+  background: $sky-blue;
+  padding: 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 50px;
   }
 }
 
-.footer__copyright {
-  text-align: right;
+.footer-subscribe__text {
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  font-size: 24px;
+  max-width: 300px;
+}
+
+.footer-subscribe__input {
+  border: 2px solid white;
+  color: $deep-blue;
+  font-family: 'Archivo', sans-serif;
+  padding: 10px 15px;
+  width: 300px;
+  @media screen and (max-width: $screen-sm){
+    width: 100%;
+  }
+}
+
+.footer-subscribe__btn {
+  background: $charcoal;
+  border: 2px solid white;
+  display: inline;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  padding: 13px 20px;
+  &:hover {
+    color: white;
+  }
+  @media screen and (max-width: $screen-sm){
+    display: block;
+    text-align: center;
+  }
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  a {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+  }
   @media screen and (max-width: 768px){
     text-align: center
   }
 }
 
-.footer__contact {
-  @media screen and (max-width: 768px){
-    padding: 20px 0;
+.footer-links {
+  background: $deep-blue;
+  padding: 100px;
+  ul {
+    li {
+      list-style-type: none;
+      a {
+        color: white;
+        font-family: 'Archivo', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+      }
+    }
   }
+}
+
+.footer__icon {
+  position: absolute;
+  bottom: 50px;
+  max-width: 50px;
+  right: 100px;
 }

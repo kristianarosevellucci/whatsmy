@@ -1,17 +1,15 @@
 .btn-primary {
+  border-radius: 255px;
   color: $white;
-  font-family: 'Cairo', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: 14px;
-  letter-spacing: 2px;
-  padding: 10px 25px;
-  text-transform: uppercase;
+  padding: 15px 25px;
   background: $charcoal;
   /* Old browsers */
-  background: linear-gradient(to left, $charcoal 50%, $maroon 50%);
+  background: linear-gradient(to left, $charcoal 50%, $pink 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  margin-left: 10px;
-  transition:all .35s ease;
+  transition: all .35s ease;
   &:hover {
     text-decoration: none;
     background-position: left bottom;
