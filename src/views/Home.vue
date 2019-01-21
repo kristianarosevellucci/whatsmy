@@ -137,9 +137,4 @@ export default {
 import VanillaTilt from "vanilla-tilt";
 </script>
 
-<style scoped lang="scss">
-.intro-text {
-  border: none;
-  padding: 0 0 215px;
-}
-</style>
+<style scoped lang="scss"></style>

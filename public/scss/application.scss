@@ -1,5 +1,9 @@
 @charset 'UTF-8';
 
+/* Util Styles */
+@import
+'utils/mixins';
+
 /* Base Styles */
 @import
 'base/colors',
@@ -18,12 +22,12 @@
 
 /* Util Styles */
 @import
-'utils/helpers',
-'utils/mixins';
+'utils/helpers';
 
 /* Page Styles */
 @import
 'pages/home',
 'pages/about',
+'pages/hiw',
 'pages/contact',
 'pages/legal';

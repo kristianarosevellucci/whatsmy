@@ -6,7 +6,7 @@
   }
   h1 {
     margin: 40px 0;
-    @media screen and (max-width: 1100px){
+    @media screen and (max-width: $tablet-lg){
       margin: 20px 0;
     }
     @media screen and (max-width: $screen-sm){
@@ -33,7 +33,7 @@
 .centered-text {
   display: flex;
   align-items: center;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: $screen-sm){
     padding: 25px 25px 50px;
   }
 }

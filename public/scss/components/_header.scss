@@ -15,7 +15,7 @@ header {
       padding-top: 1.5rem;
     }
     .header-cta-container {
-      @media screen and (min-width: 768px){
+      @media screen and (min-width: $screen-sm){
         top: 50%;
         transform: translateY(0%);
       }
@@ -37,7 +37,7 @@ header {
   .navigationOpen & {
     .menuToggle {
       cursor: pointer;
-      @media screen and (max-width: 768px){
+      @media screen and (max-width: $screen-sm){
         position: absolute;
         right: 0;
       }
@@ -98,7 +98,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: $screen-sm){
       display: block;
     }
   }
@@ -107,7 +107,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: $screen-sm){
       right: 0;
       transform: translateY(-25%);
       transition: top 0.3s ease, transform 0.3s ease;
@@ -120,7 +120,7 @@ header {
     align-items: center;
     background: none;
     border: none;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: $screen-sm){
       position: absolute;
       right: 0;
     }
@@ -144,7 +144,7 @@ header {
         position: absolute;
         left: 0;
         display: block;
-        background-color: $charcoal;
+        background-color: $deep-blue;
         width: 100%;
         height: 0.125rem;
         transition: top 0.3s ease, transform 0.3s ease;
@@ -167,7 +167,7 @@ header {
     position: absolute;
     left: 0;
     top: 10px;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: $screen-sm){
       left: 10px;
       top: -15px;
     }
@@ -179,7 +179,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: white;
+    background: $white;
     visibility: hidden;
     opacity: 0;
     overflow: auto;
@@ -191,13 +191,13 @@ header {
     text-align: center;
     max-width: 200px;
     margin: 50px 0;
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: $screen-sm){
       display: block;
     }
   }
 
   .header-btn {
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: $screen-sm){
       display: none;
     }
   }
@@ -223,8 +223,6 @@ header {
     }
   }
 }
-
-
 
 .navigation__link-group {
   padding-left: 0;
@@ -273,10 +271,9 @@ header {
 .navigation__item {
   margin: 0;
   font-size: 42px;
-  font-family: 'Archivo', sans-serif;
-  font-weight: 700;
+  @include set-font(primary, bold);
   line-height: 1.2;
-  color: #222222;
+  color: $deep-blue;
   &:hover {
     text-decoration: none;
   }
@@ -295,7 +292,7 @@ header {
 }
 
 .link__bg {
-   background: white;
+   background: $white;
    height: auto;
    width: 100%;
 }

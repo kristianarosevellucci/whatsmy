@@ -11,7 +11,7 @@
 }
 
 .form-label {
-  font-family: 'Lora', serif;
+  @include set-font(secondary);
   padding: 15px 0 0;
 }
 

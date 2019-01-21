@@ -4,9 +4,9 @@
   font-family: 'Archivo', sans-serif;
   font-size: 14px;
   padding: 15px 25px;
-  background: $charcoal;
+  background: $deep-blue;
   /* Old browsers */
-  background: linear-gradient(to left, $charcoal 50%, $pink 50%);
+  background: linear-gradient(to left, $deep-blue 50%, $pink 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .35s ease;
@@ -16,57 +16,27 @@
   }
 }
 
-.btn-secondary {
-  color: $charcoal;
-  font-family: 'Cairo', sans-serif;
-  font-size: 14px;
-  letter-spacing: 2px;
-  padding: 10px 25px;
-  text-transform: uppercase;
-  background: $dust;
-  /* Old browsers */
-  background: linear-gradient(to left, $dust 50%, $pink 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  margin-left: 10px;
-  transition:all .35s ease;
-  &:hover {
-    text-decoration: none;
-    background-position: left bottom;
-    color: $charcoal;
-  }
-}
-
-
 .img-responsive {
   width: 100%;
 }
 
-.subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
 .pb-200 {
   padding-bottom: 200px;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: $screen-sm){
     padding: 0;
   }
 }
 
 .pt-200 {
   padding-top: 200px;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: $screen-sm){
     padding: 0;
   }
 }
 
 .pt-75 {
   padding-top: 75px;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: $screen-sm){
     padding: 0;
   }
 }

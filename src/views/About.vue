@@ -139,6 +139,10 @@
 </template>
 
 <script>
+
+import Rellax from "rellax";
+let rellax;
+
 // @ is an alias to /src
 import Page from './../components/page';
 import iconBlock from './../components/icon-block';
@@ -152,19 +156,14 @@ export default {
     CtaBanner,
     Leadership,
     iconBlock
+  },
+  mounted() {
+    rellax = new Rellax(".rellax");
+  },
+  destroyed() {
+    rellax.destroy();
   }
 };
 </script>
 
-<style lang="scss" scoped>
-  .divider {
-    height: 5px;
-    width: 50px;
-    background: #E6E6E6;
-    margin: 30px 0;
-    @media screen and (max-width: 768px){
-      display: block;
-      margin: 30px auto;
-    }
-  }
-</style>
+<style lang="scss" scoped></style>

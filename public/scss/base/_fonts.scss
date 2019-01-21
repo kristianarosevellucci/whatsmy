@@ -1,28 +1,66 @@
-/*Colours*/
+/*Typography*/
+$primary-font       : 'Archivo', sans-serif;
+$primary-font-black : 'Archivo Black', sans-serif;
+$secondary-font     : 'Lora', serif;
+
+$font-weight-regular   : 400;
+$font-weight-medium    : 500;
+$font-weight-semi-bold : 600;
+$font-weight-bold      : 700;
+
+$fonts : (
+    primary : (
+        regular : (
+            font-family : $primary-font,
+            font-weight : $font-weight-regular
+        ),
+        medium : (
+            font-family : $primary-font,
+            font-weight : $font-weight-medium
+        ),
+        semi-bold : (
+            font-family : $primary-font,
+            font-weight : $font-weight-semi-bold
+        ),
+        bold : (
+            font-family : $primary-font,
+            font-weight : $font-weight-bold
+        ),
+        black : (
+            font-family : $primary-font-black,
+            font-weight : $font-weight-regular
+        )
+    ),
+    secondary : (
+        regular : (
+            font-family : $secondary-font,
+            font-weight : $font-weight-regular
+        )
+    )
+);
+
+
 h1 {
+  @include set-font(primary, black);
   color: $red;
-  font-family: 'Archivo Black', sans-serif;
   font-size: 3rem;
-  font-weight: 900;
   text-transform: uppercase;
 }
 
 h2 {
+  @include set-font(primary, black);
   color: $red;
-  font-family: 'Archivo Black', sans-serif;
-  font-weight: 700;
 }
 
 h3, .h3 {
+  @include set-font(secondary);
   color: $throwback-blue;
-  font-family: 'Lora', serif;
   font-weight: 700;
 }
 
 p {
-  font-family: 'Archivo', sans-serif;
+  @include set-font(primary, regular);
   font-size: 16px;
-  font-weight: 400;
 }
 
 .cta-title {
@@ -30,20 +68,20 @@ p {
 }
 
 .hero-lead {
-  font-family: 'Lora', serif;
+  @include set-font(secondary);
   font-weight: 700;
   font-size: 20px;
 }
 
 .lead {
-  font-family: 'Lora', serif;
+  @include set-font(secondary);
   font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
 }
 
 .subtitle {
-  font-family: 'Archivo', sans-serif;
+  @include set-font(primary, regular);
   font-size: 14px;
   letter-spacing: 4px;
   text-transform: uppercase;
