@@ -108,7 +108,7 @@
 .dot-pattern {
   position: absolute;
   max-height: 125px;
-  top: 0;
+  top: 50px;
   left: 60px;
   z-index: 2;
 }
@@ -125,7 +125,7 @@
   width: 70%;
   right: 0;
   z-index: 3;
-  top: 55px;
+  top: 100px;
 }
 
 .hiw-blurb__main-blur {
@@ -146,5 +146,9 @@
   position: absolute;
   left: -75px;
   width: 300px;
-  bottom: -100px;
+  bottom: -300px;
+}
+
+.hiw__title {
+  margin-top: 50px;
 }

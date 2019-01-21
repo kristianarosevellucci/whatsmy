@@ -37,13 +37,13 @@
             <div class="offset-md-2 col-md-8">
               <div class="row">
                 <div class="col-md-4">
-                  <img src="../../public/img/logo.svg" alt="" class="img-responsive">
+                  <img src="../../public/img/logo.svg" alt="" class="img-responsive" data-aos="fade-up">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/logo.svg" alt="" class="img-responsive">
+                  <img src="../../public/img/logo.svg" alt="" class="img-responsive" data-aos="fade-up" data-aos-duration="500">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/logo.svg" alt="" class="img-responsive">
+                  <img src="../../public/img/logo.svg" alt="" class="img-responsive" data-aos="fade-up" data-aos-duration="1000">
                 </div>
               </div>
             </div>
@@ -91,13 +91,13 @@
         <div class="container-fluid">
           <div class="row">
             <div class="offset-md-1 col-md-6">
-              <img src="../../public/img/line-accent.png" alt="images" class="hiw-blurb__line-accent">
-              <img src="../../public/img/sidekick-main.png" alt="images" class="hiw-blurb__main-img">
+              <img src="../../public/img/line-accent.png" alt="images" class="hiw-blurb__line-accent rellax" data-rellax-speed=".4">
+              <img src="../../public/img/sidekick-main.png" alt="images" class="hiw-blurb__main-img rellax" data-rellax-speed=".3">
               <img src="../../public/img/sidekick-blur.png" alt="images" class="hiw-blurb__main-blur">
-              <img src="../../public/img/large-dot-accent.png" alt="images" class="hiw-blurb__large-dots">
+              <img src="../../public/img/large-dot-accent.png" alt="images" class="hiw-blurb__large-dots rellax" data-rellax-speed="1.75">
             </div>
             <div class="offset-md-1 col-md-3">
-              <h3>WhatsMy: Your Handy Sidekick</h3>
+              <h3 class="hiw__title">WhatsMy: Your Handy Sidekick</h3>
               <p>We operate on one guiding principal – We believe consumers should have free, transparent access to valuation data for their home and/or vehicle. Our goal is to take the work off your plate by delivering the information you need — automatically, monthly, and free of charge.</p>
             </div>
           </div>

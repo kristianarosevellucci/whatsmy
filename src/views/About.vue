@@ -24,6 +24,8 @@
                 valueText="WhatsMy was created by Mobials Inc. after a number of customers asked for home and vehicle values while they weren’t actively shopping for a home or vehicle."
                 imageAlt="Storybook"
                 imageSrc="origin.png"
+                data-aos="fade-up"
+                data-aos-duration="1000"
               />
             </div>
             <div class="col-md-4">
@@ -32,6 +34,8 @@
                 valueText="We operate on one guiding principal – We believe consumers should have free, transparent access to valuation data for their home and/or vehicle."
                 imageAlt="People"
                 imageSrc="team.png"
+                data-aos="fade-up"
+                data-aos-duration="2000"
               />
             </div>
             <div class="col-md-4">
@@ -40,6 +44,8 @@
                 valueText="Our mission is to make home and vehicle ownership and shopping stress free.'"
                 imageAlt="Lightbulb"
                 imageSrc="philosophy.png"
+                data-aos="fade-up"
+                data-aos-duration="3000"
               />
             </div>
           </div>

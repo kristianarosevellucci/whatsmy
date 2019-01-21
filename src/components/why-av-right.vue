@@ -7,13 +7,15 @@
             <img
               :src="require(`@/../public/img/${imageSrc1}`)"
               :alt="imageAlt1"
-              class="text-block__add-img left"
+              class="text-block__add-img left rellax"
+              data-rellax-speed=".5"
             />
 
             <img
               :src="require(`@/../public/img/${imageSrc2}`)"
               :alt="imageAlt2"
-              class="text-block__graph-img left"
+              class="text-block__graph-img left rellax"
+              data-rellax-speed="-.15"
             />
           </div>
           <div class="color-bands">

@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <p class="hiw-steps__number">{{number}}</p>
     <img src="../../public/img/small-dot-accent.png" alt="Small Dot Pattern" class="dot-pattern">
     <h3 class="hiw-steps__title">{{title}}</h3>

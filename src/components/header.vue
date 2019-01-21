@@ -28,32 +28,39 @@
             <div class="row">
               <div class="offset-md-6 col-md-4">
                 <ul class="navigation__link-group top-group">
-
                   <div class="link1">
                     <div class="link__bg">
-                       <router-link exact to="/tools/credit" @click.native="$emit('closeNavigation')" class="navigation__item">Hello</router-link>
-                      <div class="red-block"></div>
+                       <router-link exact to="/" @click.native="$emit('closeNavigation')" class="navigation__item">
+                         Hello
+                         <div class="red-block"></div>
+                       </router-link>
                     </div>
                   </div>
 
                   <div class="link2">
                     <div class="link__bg">
-                       <router-link exact to="/tools/credit" @click.native="$emit('closeNavigation')" class="navigation__item">How It Works</router-link>
-                      <div class="red-block"></div>
+                       <router-link exact to="/how-it-works" @click.native="$emit('closeNavigation')" class="navigation__item">
+                         How It Works
+                         <div class="red-block"></div>
+                       </router-link>
                     </div>
                   </div>
 
                   <div class="link3">
                     <div class="link__bg">
-                       <router-link exact to="/tools/credit" @click.native="$emit('closeNavigation')" class="navigation__item">Our Story</router-link>
-                      <div class="red-block"></div>
+                       <router-link exact to="/about" @click.native="$emit('closeNavigation')" class="navigation__item">
+                         Our Story
+                         <div class="red-block"></div>
+                       </router-link>
                     </div>
                   </div>
 
                   <div class="link4">
                     <div class="link__bg">
-                       <router-link exact to="/tools/credit" @click.native="$emit('closeNavigation')" class="navigation__item">Get In Touch</router-link>
-                      <div class="red-block"></div>
+                       <router-link exact to="/contact" @click.native="$emit('closeNavigation')" class="navigation__item">
+                         Get In Touch
+                         <div class="red-block"></div>
+                       </router-link>
                     </div>
                   </div>
 

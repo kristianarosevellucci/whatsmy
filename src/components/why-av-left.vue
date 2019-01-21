@@ -15,15 +15,17 @@
             <img
               :src="require(`@/../public/img/${imageSrc1}`)"
               :alt="imageAlt1"
-              class="text-block__add-img"
+              class="text-block__add-img rellax"
+              data-rellax-speed=".5"
             />
             <img
               :src="require(`@/../public/img/${imageSrc2}`)"
               :alt="imageAlt2"
-              class="text-block__graph-img"
+              class="text-block__graph-img rellax"
+              data-rellax-speed="-.15"
             />
           </div>
-          <div class="color-bands">
+          <div class="color-bands rellax" data-rellax-speed=".35">
             <div class="right-bar yellow-bar"></div>
             <div class="right-bar pink-bar"></div>
             <div class="right-bar blue-bar"></div>

@@ -4,6 +4,7 @@
       :src="require(`@/../public/img/staff/${imageSrc}`)"
       :alt="imageAlt"
       class="img-responsive"
+      data-tilt
     />
     <div class="leadership__link">
       <p class="leadership__position">{{personTitle}}</p>
@@ -19,6 +20,8 @@
 </template>
 
 <script>
+import VanillaTilt from "vanilla-tilt";
+
   export default {
     name: "leadership",
     props: {
@@ -42,6 +45,19 @@
         type: String,
         required: true
       },
+    },
+    mounted() {
+      const tiltElements = document.querySelectorAll("[data-tilt]");
+      const options = {
+        max: 10,
+        glare: true,
+        maxGlare: .5
+      };
+      tiltElements.forEach(element => VanillaTilt.init(element, options));
+    },
+    destroyed() {
+      const tiltElements = document.querySelectorAll("[data-tilt]");
+      tiltElements.forEach(element => element.vanillaTilt.destroy());
     }
   }
 </script>

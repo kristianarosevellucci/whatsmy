@@ -19,7 +19,8 @@
       </div>
     </div>
   </section>
-  <section class="lead">
+
+  <section class="lead" data-aos="fade-up" data-aos-duration="2000">
     <full-text class="bottom-block"
       title="Free Monthly Home &amp; Vehicle Valuation Reports"
       text="WhatsMy makes staying on top of your home and vehicle values easy. You paid for them, you should know what they are worth. Sign up to get FREE monthly updates."
@@ -58,7 +59,7 @@
         <h2>Use WhatsMy and you'll never have to guess again.</h2>
 
         <div class="row">
-          <div class="col-sm-6 features__item-container">
+          <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
             title="Get leads that sell"
             description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
@@ -66,7 +67,7 @@
             imageAlt="Add Vehicle"
             />
           </div>
-          <div class="col-sm-6 features__item-container">
+          <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
             title="Get leads that sell"
             description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
@@ -76,7 +77,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 features__item-container">
+          <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
             title="Get leads that sell"
             description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
@@ -84,7 +85,7 @@
             imageAlt="Add Vehicle"
             />
           </div>
-          <div class="col-sm-6 features__item-container">
+          <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
             title="Get leads that sell"
             description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
@@ -106,6 +107,7 @@
 </template>
 
 <script>
+
 // @ is an alias to /src
 import FullText from './../components/full-text';
 import FeatureBlock from './../components/feature-block';
@@ -123,6 +125,8 @@ export default {
     WhyAvRight
   }
 };
+
+import VanillaTilt from "vanilla-tilt";
 </script>
 
 <style scoped lang="scss">
