@@ -3,20 +3,20 @@
       <div class="about-hero">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-4 about-hero__text">
+            <div class="col-md-4 hiw-hero__text">
               <h1>How It Works</h1>
               <p class="hero-lead">Monthly reports on time, every time. Here's how we do it.</p>
-              <router-link class="btn-primary" to=“/”>Sign Up For Free</router-link>
+              <router-link class="btn-primary" to=“/”>Get Started</router-link>
             </div>
             <div class="col-md-8 hiw-hero__device-container">
               <div class="row hiw-hero__devices">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                   <img src="../../public/img/hiw-step-1.png" alt="" class="img-responsive">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                   <img src="../../public/img/hiw-step-2.png" alt="" class="img-responsive">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                   <img src="../../public/img/hiw-step-3.png" alt="" class="img-responsive">
                 </div>
               </div>
@@ -37,13 +37,13 @@
             <div class="offset-md-2 col-md-8">
               <div class="row">
                 <div class="col-md-4">
-                  <img src="../../public/img/logo.svg" alt="" class="img-responsive" data-aos="fade-up">
+                  <img src="../../public/img/partner-black-book.png" alt="Blackbook" class="img-responsive" data-aos="fade-up">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/logo.svg" alt="" class="img-responsive" data-aos="fade-up" data-aos-duration="500">
+                  <img src="../../public/img/partner-teranet.png" alt="Teranet" class="img-responsive" data-aos="fade-up" data-aos-duration="500">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/logo.svg" alt="" class="img-responsive" data-aos="fade-up" data-aos-duration="1000">
+                  <img src="../../public/img/partner-trans-union.png" alt="Transunion" class="img-responsive" data-aos="fade-up" data-aos-duration="1000">
                 </div>
               </div>
             </div>
@@ -69,15 +69,15 @@
                 <div class="col-sm-4">
                   <numberedStep
                     number="02"
-                    title="Create Account"
-                    description="Sign up for WhatsMy and create your free account."
+                    title="Complete Details"
+                    description="Tellu s about your home and/or vehicle."
                   />
                 </div>
                 <div class="col-sm-4">
                   <numberedStep
                     number="03"
-                    title="Create Account"
-                    description="Sign up for WhatsMy and create your free account."
+                    title="See Results"
+                    description="Sit back, relax and receive valuable monthly updates."
                   />
                 </div>
               </div>

@@ -6,6 +6,9 @@
   }
   h1 {
     margin: 40px 0;
+    @media screen and (max-width: 1100px){
+      margin: 20px 0;
+    }
     @media screen and (max-width: $screen-sm){
       margin: 15px 0;
     }

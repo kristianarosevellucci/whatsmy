@@ -2,8 +2,11 @@
   max-height: 350px;
   margin-top: 300px;
   padding: 0 0 0 50px;
+  @media screen and (max-width: 1000px){
+    max-height: 250px;
+  }
   @media screen and (max-width: $screen-sm){
-   margin-top: 150px;
+   margin-top: -150px;
    max-height: 200px;
   }
 }
@@ -44,6 +47,9 @@
 .about-summary__text {
   padding: 150px 100px;
   column-count: 2;
+  @media screen and (max-width: $screen-sm){
+    column-count: 1;
+  }
   h2 {
     font-family: 'Archivo Black', sans-serif;
   }
@@ -51,6 +57,10 @@
 
 .about-summary__text {
   padding: 40px 0 60px;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px;
+    text-align: center;
+  }
 }
 
 .about-story__icon {
@@ -79,7 +89,7 @@
 
 .hiw-partners {
   padding: 200px 0 150px;
-  @media screen and (max-width: $screen-sm){
+  @media screen and (max-width: 1100px){
     padding: 150px 50px;
   }
   .lead {

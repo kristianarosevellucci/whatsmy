@@ -1,0 +1,160 @@
+.home-hero {
+  padding: 150px 100px;
+  margin-top: 42px;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px 0;
+  }
+  h1 {
+    margin: 40px 0;
+    @media screen and (max-width: $screen-sm){
+      margin: 15px 0;
+    }
+  }
+}
+
+.home-lead {
+  h2 {
+    margin-bottom: 40px;
+  }
+  margin: 0 0 150px 0;
+}
+
+.use-cases {
+  background: $light-grey;
+  padding: 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 25px 0;
+  }
+}
+
+.centered-text {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 768px){
+    padding: 25px 25px 50px;
+  }
+}
+
+.text-block__number {
+  color: $red;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 56px;
+  padding: 0 0 20px 0;
+}
+
+.text-block__title {
+  display: block;
+  padding: 0 0 20px 0;
+}
+
+.features {
+  padding: 150px 100px 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 25px 0;
+  }
+  h2 {
+    margin: 0 0 60px 0;
+    max-width: 500px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+
+.features__item {
+  border: 1px solid $light-grey;
+  min-height: 200px;
+  padding: 50px 25px;
+}
+
+.features__item-container {
+  padding: 20px;
+}
+
+.features__icon {
+  margin-right: 15px;
+  max-height: 25px;
+}
+
+.home-hero__img {
+  margin: 0 0 -84px 0;
+  @media screen and (max-width: 1150px){
+    padding: 100px 0 0;
+  }
+  @media screen and (max-width: 880px){
+    padding: 125px 0 0;
+  }
+  @media screen and (max-width: 575px){
+    display: none;
+  }
+}
+
+.img-container {
+  position: inherit;
+  z-index: 2;
+}
+
+.right-bar {
+  background: red;
+  height: 75px;
+  width: 100%;
+  margin: 5px 0;
+  position: absolute;
+  z-index: 1;
+  right: -150px;
+}
+
+.left-bar {
+  background: red;
+  height: 75px;
+  width: 100%;
+  margin: 5px 0;
+  position: absolute;
+  z-index: 1;
+  left: -150px;
+}
+
+.yellow-bar, .pink-bar, .blue-bar {
+  @media screen and (max-width: $screen-sm){
+    display: none;
+  }
+}
+
+.yellow-bar {
+  background: $yellow;
+  top: 50px;
+}
+
+.pink-bar {
+  background: $pink;
+  top: 130px;
+}
+
+.blue-bar {
+  background: $throwback-blue;
+  top: 210px;
+}
+
+
+.text-block__add-img {
+  position: absolute;
+  width: 50%;
+  box-shadow: 5px 10px 10px rgba(0,0,0, .1);
+  right: 0;
+  top: -25px;
+  &.left {
+    right: auto;
+    left: 0;
+  }
+}
+
+.text-block__graph-img {
+  box-shadow: 5px 10px 10px rgba(0,0,0, .1);
+  width: 60%;
+  float: left;
+  z-index: 1;
+  margin-top: 55px;
+  &.left {
+    float: right;
+  }
+}

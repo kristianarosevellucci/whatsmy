@@ -1,0 +1,103 @@
+.btn-primary {
+  border-radius: 255px;
+  color: $white;
+  font-family: 'Archivo', sans-serif;
+  font-size: 14px;
+  padding: 15px 25px;
+  background: $charcoal;
+  /* Old browsers */
+  background: linear-gradient(to left, $charcoal 50%, $pink 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .35s ease;
+  &:hover {
+    text-decoration: none;
+    background-position: left bottom;
+  }
+}
+
+.btn-secondary {
+  color: $charcoal;
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  background: $dust;
+  /* Old browsers */
+  background: linear-gradient(to left, $dust 50%, $pink 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  margin-left: 10px;
+  transition:all .35s ease;
+  &:hover {
+    text-decoration: none;
+    background-position: left bottom;
+    color: $charcoal;
+  }
+}
+
+
+.img-responsive {
+  width: 100%;
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+  @media screen and (max-width: 768px){
+    padding: 0;
+  }
+}
+
+.pt-200 {
+  padding-top: 200px;
+  @media screen and (max-width: 768px){
+    padding: 0;
+  }
+}
+
+.pt-75 {
+  padding-top: 75px;
+  @media screen and (max-width: 768px){
+    padding: 0;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.pb-20 {
+  padding: 0 0 20px 0;
+}
+
+.block-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+#app {
+    overflow: hidden;
+}

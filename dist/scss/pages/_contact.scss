@@ -1,0 +1,35 @@
+.contact-btn {
+  float: right;
+  margin: 13px 0;
+}
+
+.contact-form {
+  padding: 140px 100px 150px 0;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 50px;
+  }
+}
+
+.form-label {
+  font-family: 'Lora', serif;
+  padding: 15px 0 0;
+}
+
+.form-input, .form-message {
+  background: $light-grey;
+  border: 0;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+
+.form-message-group,
+.form-info-group {
+  padding: 60px 0 0;
+}
+
+.form-message {
+  height: 200px;
+  resize: none;
+}

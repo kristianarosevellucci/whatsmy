@@ -1,0 +1,68 @@
+.home-hero__subtitle {
+  color: $deep-blue;
+  font-family: 'Lora', sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.home-hero__large {
+  font-size: 100px;
+  line-height: 1;
+  @media screen and (max-width: $screen-sm){
+    font-size: 70px;
+  }
+}
+
+.home-hero__small {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+.home-hero__img {
+  position: absolute;
+  max-width: 75%;
+  right: 0;
+  top: 0;
+}
+
+.home-hero__devices {
+  margin-left: -100px;
+  margin-top: -75px;
+}
+
+.about-hero__screen {
+  position: absolute;
+  right: -120px;
+  top: 30px;
+  width: 100%;
+}
+
+.about-hero__text {
+  padding: 150px 0 0 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px 0 50px 50px;
+  }
+  .hero-lead {
+    padding: 40px 0;
+  }
+}
+
+.hiw-hero__device-container {
+  @media screen and (max-width: $screen-sm){
+    display: none;
+  }
+}
+
+.hiw-hero__devices {
+  position: absolute;
+  top: 125px;
+  z-index: 2;
+  padding-right: 100px;
+}
+
+.hiw-hero__blue {
+  margin-right: -100px;
+  right: -30px;
+  position: absolute;
+}

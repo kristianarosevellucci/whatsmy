@@ -4,13 +4,13 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4 about-hero__text">
-              <h1>About Whatsmy</h1>
+              <h1>About WhatsMy</h1>
               <p class="hero-lead">WhatsMy empowers home and vehicle owners to make smarter decisions.</p>
               <router-link class="btn-primary" to=“/”>Sign Up For Free</router-link>
             </div>
             <div class="col-md-7">
-              <img src="../../public/img/about-screen.png" alt="" class="about-hero__screen">
-              <img src="../../public/img/homepage-header.png" alt="" class="blue-banner">
+              <img src="../../public/img/about-screen.png" alt="WhatsMy Inbox" class="about-hero__screen">
+              <img src="../../public/img/homepage-header.png" alt="Blue Bar" class="blue-banner">
             </div>
           </div>
         </div>

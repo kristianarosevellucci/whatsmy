@@ -1,4 +1,3 @@
-
 .footer-subscribe {
   background: $sky-blue;
   padding: 100px;
@@ -60,6 +59,9 @@
 .footer-links {
   background: $deep-blue;
   padding: 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 100px 25px;
+  }
   ul {
     li {
       list-style-type: none;

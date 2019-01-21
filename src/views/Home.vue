@@ -8,7 +8,7 @@
           <span class="home-hero__subtitle">Your home and vehicle values change.</span>
           <h1>
             <span class="home-hero__large">Stay</span>
-            <span class="home-hero__small"> in the </span>
+            <span class="home-hero__small"> in the </span><br>
             <span class="home-hero__large">know</span>
           </h1>
           <a href="#" class="btn-primary home-hero__btn">Get Free Monthly Reports</a>
@@ -32,8 +32,8 @@
 
       <why-av-right class="bottom-block"
         number="01"
-        title="Get leads that sell"
-        textBlock="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
+        title="WhatsMy house worth?"
+        textBlock="Your home is your biggest asset. When you know what it's worth, you can make smarter financial decisions, confidently. By partnering with MPAC and Teranet, WhatsMy delivers accurate, up-to-date, value information to keep you in the know."
         imageSrc1="add-home.png"
         imageAlt1="Add Home"
         imageSrc2="home-graph.png"
@@ -41,9 +41,9 @@
       />
 
       <why-av-left class="bottom-block"
-      number="01"
-      title="Get leads that sell"
-      textBlock="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
+      number="02"
+      title="WhatsMy car worth?"
+      textBlock="Your vehicle is one of your biggest asset. When you know what it's worth, you can make smarter financial decisions, confidently. WhatsMy delivers accurate, up-to-date, value information to keep you in the know."
       imageSrc1="add-vehicle.png"
       imageAlt1="Add Vehicle"
       imageSrc2="vehicle-graph.png"
@@ -57,40 +57,39 @@
     <div class="row">
       <div class="offset-md-1 col-md-10">
         <h2>Use WhatsMy and you'll never have to guess again.</h2>
-
         <div class="row">
           <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
-            title="Get leads that sell"
-            description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
+            title="Your time is valuable."
+            description="You have things to do. Let us research your home and vehicle values for you, so you always have the numbers in your back pocket."
             imageSrc="magnifying-glass.png"
-            imageAlt="Add Vehicle"
+            imageAlt="WhatsMy Valuable Time"
             />
           </div>
           <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
-            title="Get leads that sell"
-            description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
-            imageSrc="magnifying-glass.png"
-            imageAlt="Add Vehicle"
+            title="Sent to you monthly."
+            description="You never know when you'll need them, but when you do, you can find updated WhatsMy values in your inbox every month."
+            imageSrc="email.png"
+            imageAlt="WhatsMy Email"
             />
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
-            title="Get leads that sell"
-            description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
-            imageSrc="magnifying-glass.png"
-            imageAlt="Add Vehicle"
+            title="Data you can trust."
+            description="We only pertner with the industry's most reliable data sources. So you know you can trust the information we provide."
+            imageSrc="hand-heart.png"
+            imageAlt="WhatsMy hand heart"
             />
           </div>
           <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
-            title="Get leads that sell"
-            description="You don’t just want leads — you want leads that sell. AutoVerify helps you generate 8X more leads from your existing web traffic to deliver real, measurable ROI at every stage of the purchase process."
-            imageSrc="magnifying-glass.png"
-            imageAlt="Add Vehicle"
+            title="Free today, free always."
+            description="They are your assets. You should know what they're worth, and it shouldn't cost you anything."
+            imageSrc="piggybank.png"
+            imageAlt="WhatsMy Piggybank"
             />
           </div>
         </div>
@@ -108,6 +107,9 @@
 
 <script>
 
+import Rellax from "rellax";
+let rellax;
+
 // @ is an alias to /src
 import FullText from './../components/full-text';
 import FeatureBlock from './../components/feature-block';
@@ -123,6 +125,12 @@ export default {
     CtaBanner,
     WhyAvLeft,
     WhyAvRight
+  },
+  mounted() {
+    rellax = new Rellax(".rellax");
+  },
+  destroyed() {
+    rellax.destroy();
   }
 };
 

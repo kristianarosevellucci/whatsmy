@@ -14,8 +14,6 @@
 </template>
 
 <script>
-import Rellax from "rellax";
-let rellax;
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,19 +27,11 @@ export default {
   components: {
     Footer,
     Page
-  },
-  mounted() {
-    rellax = new Rellax(".rellax");
-  },
-  destroyed() {
-    rellax.destroy();
   }
 };
 
-
-
-
 AOS.init();
+
 </script>
 
 

@@ -8,7 +8,7 @@
               :src="require(`@/../public/img/${imageSrc1}`)"
               :alt="imageAlt1"
               class="text-block__add-img left rellax"
-              data-rellax-speed=".5"
+              data-rellax-speed=".75"
             />
 
             <img

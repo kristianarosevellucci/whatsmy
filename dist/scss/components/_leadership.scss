@@ -1,0 +1,111 @@
+.leadership-container {
+  margin: 0;
+  &:hover {
+  }
+  @media screen and (max-width: $screen-sm){
+    margin: 0 0 50px 0;
+    max-width: 500px;
+  }
+}
+
+.leadership__description {
+  padding: 40px 0;
+  h3 {
+    margin-bottom: 25px;
+  }
+}
+
+.leadership__bio {
+  border-left: 7px solid $yellow;
+  padding: 0 0 0 25px;
+  margin: 0 0 50px 0;
+  @media screen and (max-width: $screen-sm){
+    margin-bottom: 0;
+  }
+}
+
+.leadership__link {
+  position: absolute;
+  left: -28px;
+  top: 43px;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.marty {
+  .leadership__link {
+    left: -73px;
+    top: 89px;
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+  .leadership__social{
+    left: 88px;
+    top: 150px;
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+}
+
+.leadership__social {
+  background: white;
+  font-size: 35px;
+  left: 43px;
+  line-height: 1;
+  padding: 10px 20px 20px 21px;
+  position: absolute;
+  top: 100px;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.linkedin {
+  color: $throwback-blue;
+}
+
+.leadership__position {
+  background: $throwback-blue;
+  color: $white;
+  padding: 20px;
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.leadership__name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin: 0;
+  @media screen and (max-width: 1000px){
+    font-size: 24px;
+  }
+  @media screen and (max-width: 768px){
+    font-size: 26px;
+    padding-top: 15px;
+    text-align: center;
+  }
+}
+
+.leadership__position {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  @media screen and (max-width: 1000px){
+    font-size: 12px;
+  }
+  @media screen and (max-width: 768px){
+    font-size: 14px;
+    text-align: center;
+  }
+}
