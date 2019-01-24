@@ -2,8 +2,11 @@
   max-height: 350px;
   margin-top: 300px;
   padding: 0 0 0 50px;
+  @media screen and (max-width: $tablet-lg){
+    max-height: 250px;
+  }
   @media screen and (max-width: $screen-sm){
-   margin-top: 150px;
+   margin-top: -150px;
    max-height: 200px;
   }
 }
@@ -16,7 +19,7 @@
 }
 
 .about-container {
-  background: $dust;
+  background: $light-grey;
   padding: 100px 100px 25px;
   @media screen and (max-width: $screen-sm){
     padding: 0 50px;
@@ -28,7 +31,7 @@
 }
 
 .about-text h2 {
-  font-family: 'Archivo Black', sans-serif;
+  @include set-font(primary, black);
   max-width: 400px;
   line-height: 1.25;
   padding: 0 0 150px 0;
@@ -44,13 +47,17 @@
 .about-summary__text {
   padding: 150px 100px;
   column-count: 2;
-  h2 {
-    font-family: 'Archivo Black', sans-serif;
+  @media screen and (max-width: $screen-sm){
+    column-count: 1;
   }
 }
 
 .about-summary__text {
   padding: 40px 0 60px;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px;
+    text-align: center;
+  }
 }
 
 .about-story__icon {
@@ -58,97 +65,4 @@
   @media screen and (max-width: $screen-sm){
     margin-top: 50px;
   }
-}
-
-
-
-.hiw-steps-container {
-  background: $light-grey;
-  padding: 150px 0;
-  @media screen and (max-width: $screen-sm){
-    padding: 150px 50px;
-  }
-  h2 {
-    padding: 45px 0 20px;
-  }
-}
-
-.hiw-blue-pattern {
-  right: -100px;
-}
-
-.hiw-partners {
-  padding: 200px 0 150px;
-  @media screen and (max-width: $screen-sm){
-    padding: 150px 50px;
-  }
-  .lead {
-    padding: 40px 0 100px;
-  }
-}
-
-.hiw-steps__number {
-  color: $red;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 72px;
-  position: relative;
-  z-index: 1;
-  padding-top: 15px;
-}
-
-.hiw-steps__title {
-  padding: 15px 0 25px;
-}
-
-.hiw-steps__lead {
-  max-width: 600px;
-  padding: 25px 0 60px;
-}
-
-.dot-pattern {
-  position: absolute;
-  max-height: 125px;
-  top: 50px;
-  left: 60px;
-  z-index: 2;
-}
-
-.hiw-blurb {
-  padding: 150px 100px;
-  @media screen and (max-width: $screen-sm){
-    padding: 150px 50px;
-  }
-}
-
-.hiw-blurb__main-img {
-  position: absolute;
-  width: 70%;
-  right: 0;
-  z-index: 3;
-  top: 100px;
-}
-
-.hiw-blurb__main-blur {
-  position: relative;
-  width: 50%;
-  left: 0;
-}
-
-.hiw-blurb__line-accent {
-  position: absolute;
-  width: 60px;
-  right: 46%;
-  z-index: 4;
-  top: -50px;
-}
-
-.hiw-blurb__large-dots {
-  position: absolute;
-  left: -75px;
-  width: 300px;
-  bottom: -300px;
-}
-
-.hiw__title {
-  margin-top: 50px;
 }

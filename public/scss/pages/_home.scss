@@ -19,7 +19,9 @@
   h2 {
     margin-bottom: 40px;
   }
-  margin: 0 0 150px 0;
+  display: block;
+  margin: 0 auto 150px;
+  max-width: 1300px;
 }
 
 .use-cases {
@@ -51,6 +53,9 @@
 }
 
 .features {
+  display: block;
+  margin: 0 auto;
+  max-width: 2000px;
   padding: 150px 100px 100px;
   @media screen and (max-width: $screen-sm){
     padding: 100px 25px 0;

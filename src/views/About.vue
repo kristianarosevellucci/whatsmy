@@ -52,7 +52,7 @@
         </div>
       </div>
       <div class="about-container">
-        <div class="container-fluid">
+        <div class="container-fluid about-content">
           <div class="row">
             <div class="offset-md-1 col-md-5">
               <div class="about-text">

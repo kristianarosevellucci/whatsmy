@@ -12,3 +12,9 @@
     background: -webkit-linear-gradient(left, $left 0%, $right 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, $left 0%, $right 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
+@mixin set-font($font-family, $font-weight: regular) {
+    $font : map-get(map-get($fonts, $font-family), $font-weight);
+    font-family: map-get($font, font-family);
+    font-weight: map-get($font, font-weight);
+}

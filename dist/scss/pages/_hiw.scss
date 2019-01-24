@@ -1,0 +1,90 @@
+.hiw-steps-container {
+  background: $light-grey;
+  padding: 150px 0;
+  @media screen and (max-width: $screen-sm){
+    padding: 150px 50px;
+  }
+  h2 {
+    padding: 45px 0 20px;
+  }
+}
+
+.hiw-blue-pattern {
+  right: -100px;
+}
+
+.hiw-partners {
+  padding: 200px 0 150px;
+  @media screen and (max-width: $tablet-lg){
+    padding: 150px 50px;
+  }
+  .lead {
+    padding: 40px 0 100px;
+  }
+}
+
+.hiw-steps__number {
+  color: $red;
+  @include set-font(primary, black);
+  font-size: 72px;
+  position: relative;
+  z-index: 1;
+  padding-top: 15px;
+}
+
+.hiw-steps__title {
+  padding: 15px 0 25px;
+}
+
+.hiw-steps__lead {
+  max-width: 600px;
+  padding: 25px 0 60px;
+}
+
+.dot-pattern {
+  position: absolute;
+  max-height: 125px;
+  top: 50px;
+  left: 60px;
+  z-index: 2;
+}
+
+.hiw-blurb {
+  padding: 150px 100px;
+  @media screen and (max-width: $screen-sm){
+    padding: 150px 50px;
+  }
+}
+
+.hiw-blurb__main-img {
+  position: absolute;
+  width: 70%;
+  right: 0;
+  z-index: 3;
+  top: 100px;
+}
+
+.hiw-blurb__main-blur {
+  position: relative;
+  width: 50%;
+  left: 0;
+}
+
+.hiw-blurb__line-accent {
+  position: absolute;
+  width: 60px;
+  right: 46%;
+  z-index: 4;
+  top: -50px;
+}
+
+.hiw-blurb__large-dots {
+  position: absolute;
+  left: -75px;
+  width: 300px;
+  bottom: -300px;
+}
+
+.hiw__title {
+  margin-top: 50px;
+}

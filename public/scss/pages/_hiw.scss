@@ -1,3 +1,9 @@
+.hiw-content {
+  display: block;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
 .hiw-steps-container {
   background: $light-grey;
   padding: 150px 0;
@@ -20,6 +26,11 @@
   }
   .lead {
     padding: 40px 0 100px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
   }
 }
 
@@ -50,6 +61,9 @@
 }
 
 .hiw-blurb {
+  display: block;
+  margin: 0 auto;
+  max-width: 2000px;
   padding: 150px 100px;
   @media screen and (max-width: $screen-sm){
     padding: 150px 50px;

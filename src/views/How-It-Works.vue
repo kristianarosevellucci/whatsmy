@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="hiw-partners text-center">
-        <div class="container-fluid">
+        <div class="container-fluid hiw-content">
           <div class="row">
             <div class="offset-md-3 col-md-6">
               <p class="subtitle">We have a little help from our friends</p>
