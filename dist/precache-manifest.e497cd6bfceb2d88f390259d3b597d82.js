@@ -12,6 +12,10 @@ self.__precacheManifest = [
     "url": "/scss/utils/_mixins.scss"
   },
   {
+    "revision": "acd8f479cf6aac03e9c7f90bbbbec4f9",
+    "url": "/scss/pages/_contact.scss"
+  },
+  {
     "revision": "d369620a362857d7cbf217dfbed963bf",
     "url": "/scss/utils/_helpers.scss"
   },
@@ -20,19 +24,15 @@ self.__precacheManifest = [
     "url": "/scss/pages/_legal.scss"
   },
   {
-    "revision": "497502d0e3382bced225922946e00f6a",
+    "revision": "62bd3015d84b1a7abb3e8eaf2ca62538",
     "url": "/scss/pages/_home.scss"
   },
   {
-    "revision": "5078da3f37e389102418f2bc20b2c7a0",
+    "revision": "5b5cf30cf4e067514d782a1830ce0433",
     "url": "/scss/pages/_hiw.scss"
   },
   {
-    "revision": "5719799245f5512812221ff563f08ac1",
-    "url": "/scss/pages/_contact.scss"
-  },
-  {
-    "revision": "6d1f5b6483024527253adf4cd735d44f",
+    "revision": "e01da11a69893e0e1389f99fd725aafd",
     "url": "/scss/pages/_about.scss"
   },
   {
@@ -44,24 +44,28 @@ self.__precacheManifest = [
     "url": "/scss/components/_page.scss"
   },
   {
-    "revision": "a70f45067af047faac881a29c422dcd5",
-    "url": "/scss/components/_hero.scss"
-  },
-  {
     "revision": "088ce3e52e6f1602b3141b255c93cb7b",
     "url": "/scss/components/_leadership.scss"
   },
   {
-    "revision": "1036e166b08bf90c30cdd41cf5f62fa9",
-    "url": "/scss/components/_footer.scss"
+    "revision": "34741159d989db40f22e76eddde0ca3a",
+    "url": "/scss/components/_hero.scss"
   },
   {
     "revision": "d09bab13c9d79b031a943f5e5e753d7f",
     "url": "/scss/components/_header.scss"
   },
   {
+    "revision": "1036e166b08bf90c30cdd41cf5f62fa9",
+    "url": "/scss/components/_footer.scss"
+  },
+  {
     "revision": "bcfdaeeef910163d8000cf656528c076",
     "url": "/scss/components/_cta-banner.scss"
+  },
+  {
+    "revision": "1ddee65670718e97b5e8746e1a6afe26",
+    "url": "/scss/base/_fonts.scss"
   },
   {
     "revision": "25753f8042e717617aab8763293f7b5a",
@@ -70,10 +74,6 @@ self.__precacheManifest = [
   {
     "revision": "f59d7d5a3a06bf4d93c0208c14faf731",
     "url": "/scss/base/_colors.scss"
-  },
-  {
-    "revision": "1ddee65670718e97b5e8746e1a6afe26",
-    "url": "/scss/base/_fonts.scss"
   },
   {
     "revision": "1e480b82be96ccabb700fae024020329",
@@ -164,7 +164,7 @@ self.__precacheManifest = [
     "url": "/img/staff/dave.png"
   },
   {
-    "revision": "94d7a7d89f30634c8c157a78760ea41d",
+    "revision": "e150a0e4374d5f35911e1e8a93cb4bc9",
     "url": "/index.html"
   },
   {
@@ -196,8 +196,8 @@ self.__precacheManifest = [
     "url": "/img/partner-trans-union.png"
   },
   {
-    "revision": "e897ec8977f4f18419b2",
-    "url": "/js/app.47c4abc5.js"
+    "revision": "20cb5d1c85ed44af64cf",
+    "url": "/js/app.5045a945.js"
   },
   {
     "revision": "1b2fb8037b836daaa61fa76c0a2219ef",
@@ -216,7 +216,7 @@ self.__precacheManifest = [
     "url": "/img/hiw-step-2.png"
   },
   {
-    "revision": "e725dd48681a8c49ebc9c1c49ba16986",
+    "revision": "599e54284e0673ff4963c7da1af5fd2b",
     "url": "/img/home-graph.png"
   },
   {
@@ -280,8 +280,8 @@ self.__precacheManifest = [
     "url": "/img/logo.b285b728.svg"
   },
   {
-    "revision": "e725dd48681a8c49ebc9c1c49ba16986",
-    "url": "/img/home-graph.e725dd48.png"
+    "revision": "599e54284e0673ff4963c7da1af5fd2b",
+    "url": "/img/home-graph.599e5428.png"
   },
   {
     "revision": "bd83d7769d5a96a843b05aae4947fad7",
@@ -388,7 +388,7 @@ self.__precacheManifest = [
     "url": "/css/chunk-vendors.1c425fdd.css"
   },
   {
-    "revision": "e897ec8977f4f18419b2",
-    "url": "/css/app.3ff42ddf.css"
+    "revision": "20cb5d1c85ed44af64cf",
+    "url": "/css/app.b6810c55.css"
   }
 ];

@@ -1,3 +1,10 @@
+.home-hero,
+.about-hero {
+  display: block;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
 .home-hero__subtitle {
   color: $deep-blue;
   @include set-font(secondary);
@@ -44,6 +51,10 @@
   }
 }
 
+.about-hero {
+  padding-bottom: 200px;
+}
+
 .about-hero__screen {
   position: absolute;
   right: -120px;
@@ -71,7 +82,8 @@
 }
 
 .hiw-hero__text {
-  padding: 150px 0 150px 100px;
+  height: 100vh;
+  padding: 150px 0 0 100px;
   @media screen and (max-width: 900px){
     padding: 50px 0 50px 50px;
   }

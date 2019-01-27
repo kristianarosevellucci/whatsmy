@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.89260996cac12f8dc3fb686ca841db7a.js"
+  "/precache-manifest.e497cd6bfceb2d88f390259d3b597d82.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "autoverify"});
