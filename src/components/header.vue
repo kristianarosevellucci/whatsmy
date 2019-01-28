@@ -32,7 +32,6 @@
                     <div class="link__bg">
                        <router-link exact to="/" @click.native="$emit('closeNavigation')" class="navigation__item">
                          Hello
-                         <div class="red-block"></div>
                        </router-link>
                     </div>
                   </div>
@@ -41,7 +40,6 @@
                     <div class="link__bg">
                        <router-link exact to="/how-it-works" @click.native="$emit('closeNavigation')" class="navigation__item">
                          How It Works
-                         <div class="red-block"></div>
                        </router-link>
                     </div>
                   </div>
@@ -50,7 +48,6 @@
                     <div class="link__bg">
                        <router-link exact to="/about" @click.native="$emit('closeNavigation')" class="navigation__item">
                          Our Story
-                         <div class="red-block"></div>
                        </router-link>
                     </div>
                   </div>
@@ -59,7 +56,6 @@
                     <div class="link__bg">
                        <router-link exact to="/contact" @click.native="$emit('closeNavigation')" class="navigation__item">
                          Get In Touch
-                         <div class="red-block"></div>
                        </router-link>
                     </div>
                   </div>

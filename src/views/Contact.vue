@@ -3,7 +3,21 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-5">
-            <p>map</p>
+            <GmapMap
+              :center="{lat:10, lng:10}"
+              :zoom="7"
+              map-type-id="terrain"
+              style="width: 500px; height: 300px"
+            >
+              <GmapMarker
+                :key="index"
+                v-for="(m, index) in markers"
+                :position="m.position"
+                :clickable="true"
+                :draggable="true"
+                @click="center=m.position"
+              />
+            </GmapMap>
           </div>
           <div class="offset-md-1 col-md-5 contact-form">
             <h2>Got a message to deliver?</h2>

@@ -274,7 +274,10 @@ header {
   @include set-font(primary, bold);
   line-height: 1.2;
   color: $deep-blue;
+  transition: .25s ease;
   &:hover {
+    background: $red;
+    color: $white;
     text-decoration: none;
   }
 }
