@@ -69,7 +69,10 @@
 }
 
 .about-hero__text {
-  padding: 150px 0 0 100px;
+  padding: 25vh 0 0 100px;
+  @media screen and (min-width: 1700px){
+    padding: 25vh 75px 0 100px;
+  }
   @media screen and (max-width: $tablet-lg){
     padding: 100px 0 50px 50px;
   }
@@ -83,7 +86,10 @@
 
 .hiw-hero__text {
   height: 100vh;
-  padding: 150px 0 0 100px;
+  padding: 25vh 0 0 100px;
+  @media screen and (min-width: 1700px){
+    padding: 25vh 75px 0 100px;
+  }
   @media screen and (max-width: 900px){
     padding: 50px 0 50px 50px;
   }
@@ -91,6 +97,7 @@
     padding: 50px 0 50px 50px;
   }
   .hero-lead {
+    max-width: 300px;
     padding: 40px 0;
     @media screen and (max-width: 900px){
       padding: 20px 0 30px;
