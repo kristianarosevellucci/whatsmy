@@ -32,6 +32,9 @@ header {
 
   .header-logo {
     max-width: 150px;
+    @media screen and (max-width: $screen-sm){
+      max-width: 100px;
+    }
   }
 
   .navigationOpen & {
