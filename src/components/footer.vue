@@ -9,10 +9,26 @@
         </div>
         <div class="col-sm-4 footer-links">
           <ul>
-            <li><router-link exact to="/">Hello</router-link></li>
-            <li><a href="/how-it-works">How It Works</a></li>
-            <li><a href="/about">Our Story</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li>
+              <router-link exact to="/">
+                Hello
+              </router-link>
+            </li>
+            <li>
+              <router-link exact to="/how-it-works">
+                How It Works
+              </router-link>
+            </li>
+            <li>
+              <router-link exact to="/about">
+                Our Story
+              </router-link>
+            </li>
+            <li>
+              <router-link exact to="/contact">
+                Get In Touch
+              </router-link>
+            </li>
           </ul>
           <img src="../../public/img/whatsmy-logo-icon-light.svg" alt="WhatsMy Icon" class="footer__icon">
         </div>

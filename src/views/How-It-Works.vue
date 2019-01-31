@@ -11,16 +11,16 @@
             <div class="col-md-8 hiw-hero__device-container">
               <div class="row hiw-hero__devices">
                 <div class="col-md-4">
-                  <img src="../../public/img/hiw-step-1.png" alt="" class="img-responsive">
+                  <img src="../../public/img/hiw-step-1.png" alt="WhatsMy HIW Step 1" class="img-responsive">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/hiw-step-2.png" alt="" class="img-responsive">
+                  <img src="../../public/img/hiw-step-2.png" alt="WhatsMy HIW Step 2" class="img-responsive">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/hiw-step-3.png" alt="" class="img-responsive">
+                  <img src="../../public/img/hiw-step-3.png" alt="WhatsMy HIW Step 3" class="img-responsive">
                 </div>
               </div>
-              <img src="../../public/img/hiw-blue-pattern.png" alt="" class="img-responsive hiw-hero__blue">
+              <img src="../../public/img/hiw-blue-pattern.png" alt="Blue Pattern" class="img-responsive hiw-hero__blue">
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@
                   <img src="../../public/img/partner-black-book.png" alt="Blackbook" class="img-responsive" data-aos="fade-up">
                 </div>
                 <div class="col-md-4">
-                  <img src="../../public/img/partner-teranet.png" alt="Teranet" class="img-responsive" data-aos="fade-up" data-aos-duration="500">
+                  <img src="../../public/img/partner-teranet.png" alt="Teranet" class="img-responsive teranet-logo" data-aos="fade-up" data-aos-duration="500">
                 </div>
                 <div class="col-md-4">
                   <img src="../../public/img/partner-trans-union.png" alt="Transunion" class="img-responsive" data-aos="fade-up" data-aos-duration="1000">

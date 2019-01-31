@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/scss/pages/_home.scss"
   },
   {
-    "revision": "5b5cf30cf4e067514d782a1830ce0433",
+    "revision": "94f5c57740ae50b4fc0bf27f708364b8",
     "url": "/scss/pages/_hiw.scss"
   },
   {
@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/scss/components/_leadership.scss"
   },
   {
-    "revision": "75ba320d97ac6f098ce94cae4aa287cc",
+    "revision": "82993e78df76d5015eddd0d85d0db9a7",
     "url": "/scss/components/_hero.scss"
-  },
-  {
-    "revision": "f66c033d22de317f7b2ababa9620d234",
-    "url": "/scss/components/_header.scss"
   },
   {
     "revision": "1036e166b08bf90c30cdd41cf5f62fa9",
     "url": "/scss/components/_footer.scss"
+  },
+  {
+    "revision": "f66c033d22de317f7b2ababa9620d234",
+    "url": "/scss/components/_header.scss"
   },
   {
     "revision": "bcfdaeeef910163d8000cf656528c076",
@@ -68,16 +68,16 @@ self.__precacheManifest = [
     "url": "/scss/base/_variables.scss"
   },
   {
-    "revision": "1ddee65670718e97b5e8746e1a6afe26",
-    "url": "/scss/base/_fonts.scss"
-  },
-  {
     "revision": "1e480b82be96ccabb700fae024020329",
     "url": "/scss/application.scss"
   },
   {
     "revision": "f59d7d5a3a06bf4d93c0208c14faf731",
     "url": "/scss/base/_colors.scss"
+  },
+  {
+    "revision": "1ddee65670718e97b5e8746e1a6afe26",
+    "url": "/scss/base/_fonts.scss"
   },
   {
     "revision": "f7ffb4d6b9b75208d39178af4bb32d95",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/img/hiw-step-2.24fc08d2.png"
   },
   {
-    "revision": "eca3a511f79bb3e703161eb281a2f708",
+    "revision": "c60ff88296f4a7d38dba93c29db91407",
     "url": "/index.html"
   },
   {
@@ -184,7 +184,7 @@ self.__precacheManifest = [
     "url": "/img/hiw-step-1.png"
   },
   {
-    "revision": "6efac2dbfa9ce7a844e3",
+    "revision": "cecbcd2e8298a97befa3",
     "url": "/js/app.f71283bb.js"
   },
   {
@@ -364,7 +364,7 @@ self.__precacheManifest = [
     "url": "/css/chunk-vendors.0331fb76.css"
   },
   {
-    "revision": "6efac2dbfa9ce7a844e3",
-    "url": "/css/app.c67dd8ab.css"
+    "revision": "cecbcd2e8298a97befa3",
+    "url": "/css/app.cfa82930.css"
   }
 ];

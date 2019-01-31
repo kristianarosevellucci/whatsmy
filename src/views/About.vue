@@ -21,7 +21,7 @@
             <div class="col-md-4">
               <iconBlock
                 valueTitle="Origin"
-                valueText="WhatsMy was created by Mobials Inc. after a number of customers asked for home and vehicle values while they weren’t actively shopping for a home or vehicle."
+                valueText="WhatsMy was created by <a href='#'> Mobials Inc.</a> after a number of customers asked for home and vehicle values while they weren’t actively shopping for a home or vehicle."
                 imageAlt="Storybook"
                 imageSrc="origin.png"
                 data-aos="fade-up"
@@ -70,7 +70,15 @@
                     personDescription="Brad provides the architecture and direction for all of Mobials’ products. His focus is on scaling applications across multiple verticals and locales, while keeping in mind that the ultimate goal of application development is to enable a positive user experience."
                     imageAlt="brad Hanebury"
                     imageSrc="brad.png"
-                    class="brad"
+                    class="brad desktop-only"
+                  />
+                  <leadership
+                    personName="James Hayes"
+                    personTitle="Founder, CEO"
+                    personDescription="Focused, driven, imaginative. James is responsible for providing the vision, thought leadership, and business strategy. It is James's ability to focus on the big picture while maintaining quality on the finest details that facilitates Mobials success."
+                    imageAlt="James Hayes"
+                    imageSrc="james.png"
+                    class="mobile-only"
                   />
                 </div>
               </div>
@@ -79,10 +87,18 @@
                   <leadership
                     personName="David Brebner"
                     personTitle="Founder, CFO"
-                    personDescription="Brad provides the architecture and direction for all of Mobials’ products. His focus is on scaling applications across multiple verticals and locales, while keeping in mind that the ultimate goal of application development is to enable a positive user experience."
+                    personDescription="Dave's breadth of historical clients in various industries and his own entrepreneurial activities provide a foundation of knowledge and experiences to support his financial, accounting, governance and structural guidance."
                     imageAlt="David Brebner"
                     imageSrc="dave.png"
-                    class="dave"
+                    class="dave desktop-only"
+                  />
+                  <leadership
+                    personName="Brad Hanebury"
+                    personTitle="Founder, CTO"
+                    personDescription="Brad provides the architecture and direction for all of Mobials’ products. His focus is on scaling applications across multiple verticals and locales, while keeping in mind that the ultimate goal of application development is to enable a positive user experience."
+                    imageAlt="brad Hanebury"
+                    imageSrc="brad.png"
+                    class="brad mobile-only"
                   />
                 </div>
               </div>
@@ -93,9 +109,18 @@
                   <leadership
                     personName="James Hayes"
                     personTitle="Founder, CEO"
-                    personDescription="Brad provides the architecture and direction for all of Mobials’ products. His focus is on scaling applications across multiple verticals and locales, while keeping in mind that the ultimate goal of application development is to enable a positive user experience."
+                    personDescription="Focused, driven, imaginative. James is responsible for providing the vision, thought leadership, and business strategy. It is James's ability to focus on the big picture while maintaining quality on the finest details that facilitates Mobials success."
                     imageAlt="James Hayes"
                     imageSrc="james.png"
+                    class="desktop-only"
+                  />
+                  <leadership
+                    personName="Marty Meadows"
+                    personTitle="Founder, VP Automotive"
+                    personDescription="Marty has a unique combination of business strategy, operational acumen and sales expertise. While designing Mobials' business strategy and facilitating contract management, Marty works with partners on strategic development."
+                    imageAlt="Marty Meadows"
+                    imageSrc="marty.png"
+                    class="marty mobile-only"
                   />
                 </div>
               </div>
@@ -104,10 +129,18 @@
                   <leadership
                     personName="Marty Meadows"
                     personTitle="Founder, VP Automotive"
-                    personDescription="Brad provides the architecture and direction for all of Mobials’ products. His focus is on scaling applications across multiple verticals and locales, while keeping in mind that the ultimate goal of application development is to enable a positive user experience."
+                    personDescription="Marty has a unique combination of business strategy, operational acumen and sales expertise. While designing Mobials' business strategy and facilitating contract management, Marty works with partners on strategic development."
                     imageAlt="Marty Meadows"
                     imageSrc="marty.png"
-                    class="marty"
+                    class="marty desktop-only"
+                  />
+                  <leadership
+                    personName="David Brebner"
+                    personTitle="Founder, CFO"
+                    personDescription="Dave's breadth of historical clients in various industries and his own entrepreneurial activities provide a foundation of knowledge and experiences to support his financial, accounting, governance and structural guidance."
+                    imageAlt="David Brebner"
+                    imageSrc="dave.png"
+                    class="dave mobile-only"
                   />
                 </div>
               </div>

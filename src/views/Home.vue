@@ -11,7 +11,7 @@
             <span class="home-hero__small"> in the </span><br>
             <span class="home-hero__large">know</span>
           </h1>
-          <a href="#" class="btn-primary home-hero__btn">Get Free Monthly Reports</a>
+          <router-link class="btn-primary home-hero__btn" to=“/”>Get Free Monthly Reports</router-link>
         </div>
         <div class="col-md-6">
           <img src="../../public/img/whatsmy-home.gif" alt="" class="img-responsive home-hero__devices">
@@ -33,7 +33,7 @@
       <why-av-right class="bottom-block"
         number="01"
         title="WhatsMy house worth?"
-        textBlock="Your home is your biggest asset. When you know what it's worth, you can make smarter financial decisions, confidently. By partnering with MPAC and Teranet, WhatsMy delivers accurate, up-to-date, value information to keep you in the know."
+        textBlock="Your home is your biggest asset. When you know what it's worth, you can make smarter financial decisions, confidently. WhatsMy delivers accurate, up-to-date, value information to keep you in the know."
         imageSrc1="add-home.png"
         imageAlt1="Add Home"
         imageSrc2="home-graph.png"
@@ -79,7 +79,7 @@
           <div class="col-sm-6 features__item-container" data-aos="fade-up" data-aos-duration="1500">
             <feature-block
             title="Data you can trust."
-            description="We only pertner with the industry's most reliable data sources. So you know you can trust the information we provide."
+            description="We only partner with the industry's most reliable data sources. So you know you can trust the information we provide."
             imageSrc="hand-heart.png"
             imageAlt="WhatsMy hand heart"
             />

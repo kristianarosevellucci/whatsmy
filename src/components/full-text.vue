@@ -1,6 +1,6 @@
 <template>
   <section class="home-lead">
-    <div class="container-fluid text-center">
+    <div class="container-fluid">
       <div class="offset-sm-2 col-sm-8">
         <h2 class="h3">{{title}}</h2>
         <p class="lead">{{text}}</p>

@@ -25,11 +25,11 @@
             <label class="form-label">Full Name</label>
             <input type="text" class="form-input" placeholder="Full Name">
             <label class="form-label">Email Address</label>
-            <input type="text" class="form-input" placeholder="Full Name">
+            <input type="text" class="form-input" placeholder="email@email.com">
             <h3 class="form-message-group">Let Us Know Your Thoughts:</h3>
             <label class="form-label">Message</label>
             <textarea class="form-message"></textarea>
-            <a href="#" class="btn-primary contact-btn">Get Free Monthly Reports</a>
+            <router-link class="btn-primary contact-btn" to=“/”>Submit</router-link>
           </div>
         </div>
 
