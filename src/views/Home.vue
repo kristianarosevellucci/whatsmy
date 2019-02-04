@@ -5,13 +5,15 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6">
-          <span class="home-hero__subtitle">Your home and vehicle values change.</span>
-          <h1>
-            <span class="home-hero__large">Stay</span>
-            <span class="home-hero__small"> in the </span><br>
-            <span class="home-hero__large">know</span>
-          </h1>
-          <router-link class="btn-primary home-hero__btn" to=“/”>Get Free Monthly Reports</router-link>
+          <div class="home__hero-text">
+            <h1>
+              <span class="home-hero__large">Stay</span>
+              <span class="home-hero__small"> in the </span><br class="desktop-only">
+              <span class="home-hero__large">know</span>
+            </h1>
+            <p class="home-hero__subtitle">Your home and vehicle values change.</p>
+            <router-link class="btn-primary home-hero__btn" to=“/”>Get Free Monthly Reports</router-link>
+          </div>
         </div>
         <div class="col-md-6">
           <img src="../../public/img/whatsmy-home.gif" alt="" class="img-responsive home-hero__devices">
@@ -20,7 +22,7 @@
     </div>
   </section>
 
-  <section class="lead" data-aos="fade-up" data-aos-duration="2000">
+  <section class="lead" data-aos="fade-up" data-aos-duration="1200">
     <full-text class="bottom-block"
       title="Free Monthly Home &amp; Vehicle Valuation Reports"
       text="WhatsMy makes staying on top of your home and vehicle values easy. You paid for them, you should know what they are worth. Sign up to get FREE monthly updates."

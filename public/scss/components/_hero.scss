@@ -3,12 +3,24 @@
   display: block;
   margin: 0 auto;
   max-width: 2000px;
+  @media screen and (min-width: $screen-lg){
+    min-height: 1000px;
+  }
 }
 
 .home-hero {
+  padding: 150px 100px;
+  margin-top: 42px;
+  @media screen and (max-width: $screen-sm){
+    padding: 50px 0 50px 50px;
+  }
   h1 {
+    margin: 15px 0;
+    @media screen and (max-width: $tablet-lg){
+      margin: 20px 0;
+    }
     @media screen and (max-width: $screen-sm){
-      padding: 20px 0 30px;
+      margin: 15px 0;
     }
   }
 }
@@ -18,17 +30,18 @@
   @include set-font(secondary);
   font-size: 18px;
   font-weight: 700;
+  padding: 0 0 40px 0;
   text-transform: capitalize;
 }
 
 .home-hero__large {
   font-size: 100px;
-  line-height: 1;
+  line-height: .75;
   @media screen and (max-width: $tablet-lg){
-    font-size: 65px;
+    font-size: 4.5rem;
   }
   @media screen and (max-width: $screen-sm){
-    font-size: 70px;
+    font-size: 3rem;
   }
 }
 
@@ -37,6 +50,14 @@
   font-size: 24px;
   font-weight: 700;
   text-transform: lowercase;
+  @media screen and (max-width: $tablet-lg){
+    font-size: 1.25rem;
+  }
+  @media screen and (max-width: $screen-sm){
+    font-size: 3rem;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+  }
 }
 
 .home-hero__img {
@@ -46,6 +67,13 @@
   top: 0;
   @media screen and (max-width: $screen-sm){
     top: -50px;
+  }
+}
+
+.home__hero-text {
+  padding-top: 15vh;
+  @media screen and (min-width: $screen-lg){
+    padding-top: 30vh;
   }
 }
 
@@ -76,8 +104,8 @@
 
 .about-hero__text {
   padding: 25vh 0 0 100px;
-  @media screen and (min-width: 1700px){
-    padding: 25vh 75px 0 100px;
+  @media screen and (min-width: $screen-lg){
+    padding: 45vh 75px 0 100px;
   }
   @media screen and (max-width: $tablet-lg){
     padding: 100px 0 50px 50px;
@@ -93,8 +121,8 @@
 .hiw-hero__text {
   height: 100vh;
   padding: 25vh 0 0 100px;
-  @media screen and (min-width: 1700px){
-    padding: 25vh 75px 0 100px;
+  @media screen and (min-width: $screen-lg){
+    padding: 45vh 75px 0 100px;
   }
   @media screen and (max-width: 1100px){
     height: auto;

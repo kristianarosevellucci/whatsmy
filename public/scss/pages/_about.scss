@@ -25,6 +25,9 @@
   @media screen and (max-width: $screen-sm){
     padding: 50px 50px 100px;
   }
+  @media screen and (min-width: $screen-lg){
+    padding: 350px 100px 150px;
+  }
 }
 
 .about-container {

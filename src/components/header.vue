@@ -20,6 +20,7 @@
               </span>
             </button>
           </div>
+          <router-link class="mobile-header-btn" to=“/”>Get Free Report</router-link>
         </div>
       </div>
       <div class="navigation">

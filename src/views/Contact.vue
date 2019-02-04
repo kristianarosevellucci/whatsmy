@@ -2,12 +2,12 @@
   <Page>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 desktop-only">
             <GmapMap
               :center="{lat:10, lng:10}"
               :zoom="7"
               map-type-id="terrain"
-              style="width: 100%; height: 70vh; top: 7vh;"
+              class="google-map"
             >
               <GmapMarker
                 :key="index"
@@ -31,9 +31,24 @@
             <textarea class="form-message"></textarea>
             <router-link class="btn-primary contact-btn" to=“/”>Submit</router-link>
           </div>
+          <div class="col-md-5 mobile-only">
+            <GmapMap
+              :center="{lat:10, lng:10}"
+              :zoom="7"
+              map-type-id="terrain"
+              class="google-map"
+            >
+              <GmapMarker
+                :key="index"
+                v-for="(m, index) in markers"
+                :position="m.position"
+                :clickable="true"
+                :draggable="true"
+                @click="center=m.position"
+              />
+            </GmapMap>
+          </div>
         </div>
-
-
       </div>
   </Page>
 </template>
